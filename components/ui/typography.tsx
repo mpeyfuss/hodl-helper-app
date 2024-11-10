@@ -8,11 +8,7 @@ export const Title = ({
   children: ReactNode;
   className?: string;
 }) => {
-  return (
-    <h1 className={cn("text-5xl font-title font-semibold", className)}>
-      {children}
-    </h1>
-  );
+  return <h1 className={cn("text-5xl font-title", className)}>{children}</h1>;
 };
 
 export const Heading = ({
@@ -22,11 +18,7 @@ export const Heading = ({
   children: ReactNode;
   className?: string;
 }) => {
-  return (
-    <h2 className={cn("text-3xl font-title font-semibold", className)}>
-      {children}
-    </h2>
-  );
+  return <h2 className={cn("text-3xl font-title", className)}>{children}</h2>;
 };
 
 export const Subheading = ({
@@ -36,11 +28,7 @@ export const Subheading = ({
   children: ReactNode;
   className?: string;
 }) => {
-  return (
-    <h3 className={cn("text-xl font-title font-medium", className)}>
-      {children}
-    </h3>
-  );
+  return <h3 className={cn("text-xl font-title", className)}>{children}</h3>;
 };
 
 export const Paragraph = ({
