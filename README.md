@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HODL Helper App
+The app for HODL Helper - Believe in something and just HODL.
 
-## Getting Started
+## About
+HODL Helper aims to help people lock away tokens they truly believe so they aren't tempted into trading.
 
-First, run the development server:
+One of the best moves people can make when investing is to "buy and hold". This is especially true in the stock market, but I also believe that it can be valid in crypto, even if that hasn't been fully proven yet.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Locking tokens away helps keep people true to the strategy, as humans are easily tempted by charts in general. The goal of this app is to lock tokens away without completely stopping users from accessing the funds in case they need them.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+More info: https://hackmd.io/@mpeyfuss/hodl-helper
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Current Status
+The current dApp is written in NextJS. It's a framework I'm comfortable with and has large support, especially in web3 and it uses React.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+It's meant to be a pretty simple MVP. I've built the smart contract to be useable as a simple backend, however, more complex ideas I have like trending tokens will require a backend in the future. For now, that's something I planning on working on, but want to get this out in front of the community to get feedback.
 
-## Learn More
+## Design
+I'm not a designer, but I'd like to think that I've learned a few things over the last few years of building. This doesn't mean that the design is good, but hopefully it's not bad either. 
 
-To learn more about Next.js, take a look at the following resources:
+In my head, HODL Helper has always been yellow. Not sure why, maybe it's cause I think the logo should be similar to the Walmart smiley face stickers they give out. I'm open to changing this around and would love input from the community.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Please feel free to roast my designs! I need the help :)
